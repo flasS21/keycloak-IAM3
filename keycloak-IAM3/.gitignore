@@ -1,0 +1,72 @@
+# Eclipse IDE
+.metadata/
+.settings/
+.project
+.classpath
+.target/
+
+# Maven
+target/
+pom.xml.version
+pom.xml.next
+
+# Gradle (if used)
+.gradle/
+build/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+logs/
+log/
+tmp/
+*.log
+*.tmp
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+
+# Environment files (if any)
+.env
+.env.local
+.env.*
+
+# Test reports
+surefire-reports/
+failsafe-reports/
+
+# IDE-specific files (IntelliJ, VSCode, etc.)
+.vscode/
+*.swp
+*.swo
+
+# Local config files (avoid committing secrets!)
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# Docker (if used)
+docker-compose.override.yml
+.dockerignore
+
+# Node.js (if used)
+node_modules/
+dist/
+build/
+
+# Spring Boot DevTools restart
+.recommenders/
